@@ -17,6 +17,7 @@ Official implementation of our paper:
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
 
 ## 🚀 Run Demo
 
@@ -32,3 +33,4 @@ If you find this work helpful in your research, please cite our paper:
   year={2025},
   publisher={IEEE}
 }
+```
