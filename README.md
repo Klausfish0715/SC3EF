@@ -23,7 +23,7 @@ This repository contains the source code for SC³EF, a novel joint self-correlat
 - opencv-python 4.7.0.72
 - pandas 2.0.3
 - Pillow 11.2.1
-- scikit_learn 1.3.2
+- scikit-learn 1.3.2
 - scipy 1.9.1
 - tensorboardX 2.6.2.2
 - timm 0.4.12
