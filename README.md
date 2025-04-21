@@ -13,9 +13,21 @@ This repository contains the source code for SC³EF, a novel joint self-correlat
 
 ## 📦 Requirements
 - Python 3.8+
-- PyTorch 1.10.1+
+- torch 1.10.1+cu102
+- torchvision 0.11.2+cu102
+- einops 0.8.1
+- imageio 2.27.0
+- matplotlib 3.7.3
+- mmcv 2.2.0
+- numpy 1.23.1
+- opencv-python 4.7.0.72
+- pandas 2.0.3
+- Pillow 11.2.1
+- scikit_learn 1.3.2
+- scipy 1.9.1
+- tensorboardX 2.6.2.2
 - timm 0.4.12
-- OpenCV, NumPy, etc.
+- tqdm 4.65.0
 
 Install dependencies:
 ```bash
