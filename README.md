@@ -5,6 +5,7 @@ Official implementation of our paper:
 *Accepted by IEEE Transactions on Intelligent Transportation Systems (T-ITS)*
 
 [https://arxiv.org/abs/2504.12869] Paper Link
+
 [https://github.com/Klausfish0715/SC3EF] Project Page
 
 ## 📦 Requirements
