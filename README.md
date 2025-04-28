@@ -11,23 +11,10 @@ Official implementation of our paper:
 ## 🧩 Introduction
 This repository contains the source code for SC³EF, a novel joint self-correlation and cross-correspondence estimation framework to improve RGB-T image registration by leveraging both local representative features and global contextual cues. A convolution-transformer-based pipeline is developed to extract intra-modality self-correlation and estimate inter-modality correspondences. Considering that human observers use both local and global cues to establish correspondences, a convolution-based local feature extractor and a transformer-based global self-correlation encoder are introduced. The extracted features and encoded correlations are then utilized to estimate inter-modality correspondences, which are merged and progressively refined using a hierarchical optical flow decoder. Experimental results on benchmark RGB-T datasets show that SC³EF outperforms state-of-the-art methods. Furthermore, it demonstrates competitive generalization capabilities across challenging scenarios, including large parallax, severe occlusions, adverse weather, and other cross-modal datasets (e.g., RGB-N and RGB-D).
 
-## 📦 Requirements
+## 📦 Environments
 - Python 3.8+
 - torch 1.10.1+cu102
 - torchvision 0.11.2+cu102
-- einops 0.8.1
-- imageio 2.27.0
-- matplotlib 3.7.3
-- mmcv 2.2.0
-- numpy 1.23.1
-- opencv-python 4.7.0.72
-- pandas 2.0.3
-- Pillow 11.2.1
-- scikit-learn 1.3.2
-- scipy 1.9.1
-- tensorboardX 2.6.2.2
-- timm 0.4.12
-- tqdm 4.65.0
 
 Install dependencies:
 ```bash
