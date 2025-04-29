@@ -22,8 +22,9 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 Run Demo
-
-## 📁 Project Structure
+```bash
+python test.py
+```
 
 ## 📜 Citation
 If you find this work helpful in your research, please cite our paper:
