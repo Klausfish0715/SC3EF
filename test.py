@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader
 # Import custom modules
 from data.dataset_simu_KAIST_freq_32 import simu_KAIST_32
 from evaluate_pyr import calculate_epe_rgbt, calculate_pck_rgbt, save_flow
-from gmflow.p2t_tiny_convnext_2dec_v7_secrosshf import PyramidPoolingTransformer
+from SC3EF.SC3EF import SC3EF
 
 
 def get_args_parser():
